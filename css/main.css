@@ -2522,3 +2522,30 @@ h6 {
 .single-footer-widget p {
   font-size: 14px;
 }
+
+#logo {
+  max-width: 10%;
+}
+
+@media (max-width: 1000px) {
+  #contact .row {
+    justify-content: center;
+  }
+  .single-footer-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-social {
+    justify-content: center;
+  }
+  .footer-social a:last-child {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #logo {
+    max-width: 40% !important;
+  }
+}
